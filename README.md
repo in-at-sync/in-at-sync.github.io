@@ -4,8 +4,7 @@ Public-facing site for **IN/AT-SYNC** (JWST GO 10047, "INterior/ATmosphere Surve
 PI Rafael Luque. Structure and conventions modeled on [KRONOS](https://kronos-jwst.github.io)
 ([source](https://github.com/kronos-jwst/kronos-jwst.github.io)).
 
-Plain HTML/CSS, no build step — `index.html` + `style.css`. Deploy via GitHub Pages once ready to go public
-(this repo is currently private).
+Plain HTML/CSS, no build step — `index.html` + `style.css`. Live at [in-at-sync.github.io](https://in-at-sync.github.io/).
 
 ## To do
 - [ ] Headshots for team photos (currently initials placeholders)
