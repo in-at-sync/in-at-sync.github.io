@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>IN/AT-SYNC</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="IN/AT-SYNC: a JWST Cycle 5 Large Program surveying the interiors and atmospheres of sub-Neptunes in resonant chains.">
+<link rel="icon" type="image/jpeg" href="assets/logo_squared.jpg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button id="menuToggle" onclick="document.querySelector('nav.sidebar').classList.toggle('open')">&#9776;</button>
+
+<nav class="sidebar">
+  <img src="assets/logo_squared.jpg" alt="IN/AT-SYNC logo" class="brand-logo">
+  <p class="tagline">JWST GO 10047 &middot; Cycle 5</p>
+  <a href="#home">Home</a>
+  <a href="#team">Team</a>
+  <a href="#planets">Planets</a>
+  <a href="#results">Featured Results</a>
+  <a href="#status">Program Status</a>
+  <a href="#data">Data Products</a>
+  <a href="#conduct">Code of Conduct</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+  <section id="home" class="hero">
+    <h1>IN/AT-SYNC</h1>
+    <p class="subtitle"><b>IN</b>terior/<b>AT</b>mosphere <b>S</b>urve<b>Y</b> of sub-<b>N</b>eptunes in <b>C</b>hains — a JWST Cycle 5
+      Large Program using NIRISS/SOSS and NIRSpec/G395H to measure atmospheric mean molecular weight, C/O, and envelope
+      mass fraction for nine sub-Neptunes in four resonant chains, spanning ages from 75 Myr to 6 Gyr.</p>
+    <div class="meta">
+      <span><b>PI</b> Rafael Luque (IAA-CSIC)</span>
+      <span><b>Program</b> JWST GO 10047</span>
+      <span><b>Time</b> 196.5h</span>
+      <span><b>Status</b> Implementation</span>
+    </div>
+    <p class="lede">
+      Across the Galaxy, planetary systems play to a different tune than our own. Most Sun-like stars host compact
+      sub-Neptunes locked in resonant chains at birth — but the harmony rarely lasts: most chains turn dissonant
+      within the first billion years. The few survivors are pristine laboratories, their architectures frozen at
+      disk dispersal and their atmospheres shielded from the impacts that reshape most systems. IN/AT-SYNC observes
+      four such survivors — TOI-6109, TOI-1136, HD&nbsp;110067, and TOI-178 — spanning 75 Myr to 6 Gyr. Combined with
+      resonant chains already observed by JWST in earlier cycles, this builds the first age-resolved view of
+      sub-Neptune origin and nature.
+    </p>
+  </section>
+
+  <section id="team" class="hero-band">
+    <h2>The Team</h2>
+    <hr class="rule">
+
+    <div class="card-grid leads-grid">
+      <div class="person person-lead"><div class="avatar">RL</div><h3>Rafael Luque</h3><p class="role">PI</p><p class="inst">Instituto de Astrofísica de Andalucía</p></div>
+      <div class="person"><div class="avatar">FD</div><h3>Fei Dai</h3><p class="role">Co-PI</p><p class="inst">University of Hawai'i</p></div>
+      <div class="person"><div class="avatar">ZH</div><h3>Zhecheng Hu</h3><p class="role">Co-PI</p><p class="inst">Tsinghua University</p></div>
+      <div class="person"><div class="avatar">AL</div><h3>Adrien Leleu</h3><p class="role">Co-PI</p><p class="inst">University of Geneva</p></div>
+      <div class="person"><div class="avatar">MN</div><h3>Matthew Nixon</h3><p class="role">Co-PI</p><p class="inst">Arizona State University</p></div>
+      <div class="person"><div class="avatar">HO</div><h3>Hugh Osborn</h3><p class="role">Co-PI</p><p class="inst">University of Bern</p></div>
+    </div>
+
+    <p class="team-subhead">Contributors</p>
+    <div class="card-grid">
+      <div class="person"><div class="avatar">YA</div><h3>Yann Alibert</h3><p class="inst">University of Bern</p></div>
+      <div class="person"><div class="avatar">OB</div><h3>Oscar Barragán</h3><p class="inst">University of Oxford</p></div>
+      <div class="person"><div class="avatar">AB</div><h3>Andrea Bonfanti</h3><p class="inst">Austrian Academy of Sciences</p></div>
+      <div class="person"><div class="avatar">VB</div><h3>Vincent Bourrier</h3><p class="inst">University of Geneva</p></div>
+      <div class="person"><div class="avatar">RB</div><h3>Remo Burn</h3><p class="inst">Observatoire de la Côte d'Azur</p></div>
+      <div class="person"><div class="avatar">BC</div><h3>Brandon Park Coy</h3><p class="inst">University of Chicago</p></div>
+      <div class="person"><div class="avatar">AD</div><h3>Anne Dattilo</h3><p class="inst">UC Santa Cruz</p></div>
+      <div class="person"><div class="avatar">CD</div><h3>Caroline Dorn</h3><p class="inst">ETH Zürich</p></div>
+      <div class="person"><div class="avatar">JE</div><h3>Jo Ann Egger</h3><p class="inst">ESA / ESTEC</p></div>
+      <div class="person"><div class="avatar">AF</div><h3>Adina Feinstein</h3><p class="inst">Michigan State University</p></div>
+      <div class="person"><div class="avatar">GF</div><h3>Gareb Enoc Fernández Rodríguez</h3><p class="inst">Instituto de Astrofísica de Canarias</p></div>
+      <div class="person"><div class="avatar">AG</div><h3>Antonio García Muñoz</h3><p class="inst">CEA</p></div>
+      <div class="person"><div class="avatar">MH</div><h3>Matthew Hooton</h3><p class="inst">University of Cambridge</p></div>
+      <div class="person"><div class="avatar">JK</div><h3>Judith Korth</h3><p class="inst">University of Geneva</p></div>
+      <div class="person"><div class="avatar">ML</div><h3>Man Hoi Lee</h3><p class="inst">University of Hong Kong</p></div>
+      <div class="person"><div class="avatar">ML</div><h3>Manuel López Puertas</h3><p class="inst">Instituto de Astrofísica de Andalucía</p></div>
+      <div class="person"><div class="avatar">KM</div><h3>Kento Masuda</h3><p class="inst">Osaka University</p></div>
+      <div class="person"><div class="avatar">FM</div><h3>Felipe Murgas</h3><p class="inst">Instituto de Astrofísica de Canarias</p></div>
+      <div class="person"><div class="avatar">EP</div><h3>Enric Palle</h3><p class="inst">Instituto de Astrofísica de Canarias</p></div>
+      <div class="person"><div class="avatar">MP</div><h3>Manuel Perger</h3><p class="inst">ICE-CSIC</p></div>
+      <div class="person"><div class="avatar">CP</div><h3>Caroline Piaulet-Ghorayeb</h3><p class="inst">University of Chicago</p></div>
+      <div class="person"><div class="avatar">OP</div><h3>Oscar Porqueras León</h3><p class="inst">ICE-CSIC</p></div>
+      <div class="person"><div class="avatar">MR</div><h3>Michael Radica</h3><p class="inst">University of Chicago</p></div>
+      <div class="person"><div class="avatar">IR</div><h3>Ignasi Ribas</h3><p class="inst">ICE-CSIC</p></div>
+      <div class="person"><div class="avatar">JR</div><h3>James Rogers</h3><p class="inst">University of Cambridge</p></div>
+      <div class="person"><div class="avatar">MR</div><h3>Marylyn Rosenqvist</h3><p class="inst">University of Geneva</p></div>
+      <div class="person"><div class="avatar">NS</div><h3>Nicholas Scarsdale</h3><p class="inst">Instituto de Astrofísica de Andalucía</p></div>
+      <div class="person"><div class="avatar">HS</div><h3>Hilke Schlichting</h3><p class="inst">UCLA</p></div>
+      <div class="person"><div class="avatar">DS</div><h3>Darryl Seligman</h3><p class="inst">Michigan State University</p></div>
+      <div class="person"><div class="avatar">CS</div><h3>Chanoul Seo</h3><p class="inst">ASIAA</p></div>
+      <div class="person"><div class="avatar">ST</div><h3>Shang-Min Tsai</h3><p class="inst">ASIAA</p></div>
+      <div class="person"><div class="avatar">JV</div><h3>Julia Venturini</h3><p class="inst">University of Geneva</p></div>
+      <div class="person"><div class="avatar">LW</div><h3>Luis Welbanks</h3><p class="inst">Arizona State University</p></div>
+      <div class="person"><div class="avatar">AW</div><h3>Aaron Werlen</h3><p class="inst">UCLA</p></div>
+      <div class="person"><div class="avatar">YY</div><h3>Yue Yu</h3><p class="inst">Instituto de Astrofísica de Andalucía</p></div>
+      <div class="person"><div class="avatar">WZ</div><h3>Wei Zhu</h3><p class="inst">Tsinghua University</p></div>
+    </div>
+  </section>
+
+  <section id="planets">
+    <h2>The Planets</h2>
+    <hr class="rule">
+    <p>Nine sub-Neptunes in four resonant chains, spanning nearly three orders of magnitude in age. Each planet gets
+      one NIRISS/SOSS and one NIRSpec/G395H visit (TOI-178's NIRSpec/G395M already exists from GO&nbsp;2319).</p>
+
+    <div class="system-group">
+      <h3>TOI-6109 &middot; 75 Myr</h3>
+      <p class="system-meta">T<sub>eff</sub> = 5660 K &middot; J = 9.6 mag</p>
+      <div class="planet-cards">
+        <div class="planet-card">
+          <div class="planet-header">TOI-6109 b</div>
+          <dl>
+            <dt>Period</dt><dd>5.69 d</dd>
+            <dt>Radius</dt><dd>4.87 R&oplus;</dd>
+            <dt>Mass</dt><dd>5.0 M&oplus;</dd>
+            <dt>T<sub>eq</sub></dt><dd>790 K</dd>
+          </dl>
+        </div>
+        <div class="planet-card">
+          <div class="planet-header">TOI-6109 c</div>
+          <dl>
+            <dt>Period</dt><dd>8.53 d</dd>
+            <dt>Radius</dt><dd>4.83 R&oplus;</dd>
+            <dt>Mass</dt><dd>5.0 M&oplus;</dd>
+            <dt>T<sub>eq</sub></dt><dd>700 K</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+    <div class="system-group">
+      <h3>TOI-1136 &middot; 700 Myr</h3>
+      <p class="system-meta">T<sub>eff</sub> = 5770 K &middot; J = 8.4 mag</p>
+      <div class="planet-cards">
+        <div class="planet-card">
+          <div class="planet-header">TOI-1136 d</div>
+          <dl>
+            <dt>Period</dt><dd>12.51 d</dd>
+            <dt>Radius</dt><dd>4.63 R&oplus;</dd>
+            <dt>Mass</dt><dd>8.3 M&oplus;</dd>
+            <dt>T<sub>eq</sub></dt><dd>843 K &mdash; hottest in sample</dd>
+          </dl>
+        </div>
+        <div class="planet-card">
+          <div class="planet-header">TOI-1136 f</div>
+          <dl>
+            <dt>Period</dt><dd>26.31 d</dd>
+            <dt>Radius</dt><dd>3.88 R&oplus;</dd>
+            <dt>Mass</dt><dd>9.7 M&oplus;</dd>
+            <dt>T<sub>eq</sub></dt><dd>658 K</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+    <div class="system-group">
+      <h3>HD 110067 &middot; 2 Gyr</h3>
+      <p class="system-meta">T<sub>eff</sub> = 5266 K &middot; J = 6.5 mag</p>
+      <div class="planet-cards">
+        <div class="planet-card">
+          <div class="planet-header">HD 110067 b</div>
+          <dl>
+            <dt>Period</dt><dd>9.11 d</dd>
+            <dt>Radius</dt><dd>2.20 R&oplus;</dd>
+            <dt>Mass</dt><dd>5.7 M&oplus;</dd>
+            <dt>T<sub>eq</sub></dt><dd>800 K</dd>
+          </dl>
+        </div>
+        <div class="planet-card">
+          <div class="planet-header">HD 110067 d</div>
+          <dl>
+            <dt>Period</dt><dd>20.51 d</dd>
+            <dt>Radius</dt><dd>2.85 R&oplus;</dd>
+            <dt>Mass</dt><dd>8.5 M&oplus;</dd>
+            <dt>T<sub>eq</sub></dt><dd>602 K</dd>
+          </dl>
+        </div>
+        <div class="planet-card">
+          <div class="planet-header">HD 110067 f</div>
+          <dl>
+            <dt>Period</dt><dd>41.05 d</dd>
+            <dt>Radius</dt><dd>2.60 R&oplus;</dd>
+            <dt>Mass</dt><dd>5.0 M&oplus;</dd>
+            <dt>T<sub>eq</sub></dt><dd>489 K</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+    <div class="system-group">
+      <h3>TOI-178 &middot; 6 Gyr</h3>
+      <p class="system-meta">T<sub>eff</sub> = 4816 K &middot; J = 9.4 mag</p>
+      <div class="planet-cards">
+        <div class="planet-card">
+          <div class="planet-header">TOI-178 d</div>
+          <dl>
+            <dt>Period</dt><dd>6.56 d</dd>
+            <dt>Radius</dt><dd>2.69 R&oplus;</dd>
+            <dt>Mass</dt><dd>5.2 M&oplus;</dd>
+            <dt>T<sub>eq</sub></dt><dd>690 K</dd>
+          </dl>
+        </div>
+        <div class="planet-card">
+          <div class="planet-header">TOI-178 g</div>
+          <dl>
+            <dt>Period</dt><dd>20.71 d</dd>
+            <dt>Radius</dt><dd>2.94 R&oplus;</dd>
+            <dt>Mass</dt><dd>4.4 M&oplus;</dd>
+            <dt>T<sub>eq</sub></dt><dd>470 K</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="results">
+    <h2>Featured Results</h2>
+    <hr class="rule">
+    <div class="empty-state">
+      <p><b>No results yet.</b> First data arrives October 2026 (TOI-178).</p>
+    </div>
+  </section>
+
+  <section id="status">
+    <h2>Program Status</h2>
+    <hr class="rule">
+    <p>Observation windows per the STScI visit-status page. JWST scheduling windows shift —
+      treat future dates as provisional until closer to execution.</p>
+    <div style="overflow-x:auto">
+      <table class="status">
+        <tr><th>Planet</th><th>NIRISS/SOSS</th><th>NIRSpec/G395H</th><th>Status</th></tr>
+        <tr><td>TOI-178 d</td><td>Oct 23, 2026</td><td>Obtained (GO 2319, 2023)</td><td><span class="status-tag status-scheduled">Scheduled</span></td></tr>
+        <tr><td>TOI-178 g</td><td>Dec 3, 2026</td><td>Obtained (GO 2319, 2023)</td><td><span class="status-tag status-scheduled">Scheduled</span></td></tr>
+        <tr><td>TOI-6109 b</td><td>Jan 31, 2027</td><td>Jan 2&ndash;3, 2027</td><td><span class="status-tag status-scheduled">Scheduled</span></td></tr>
+        <tr><td>TOI-6109 c</td><td>Jan 15&ndash;16, 2028</td><td>Feb 16&ndash;17, 2027</td><td><span class="status-tag status-scheduled">Scheduled</span></td></tr>
+        <tr><td>TOI-1136 d</td><td>Mar 12&ndash;13, 2027</td><td>Jan 19&ndash;20, 2028</td><td><span class="status-tag status-scheduled">Scheduled</span></td></tr>
+        <tr><td>TOI-1136 f</td><td>May 15, 2027</td><td>Feb 25, 2027</td><td><span class="status-tag status-scheduled">Scheduled</span></td></tr>
+        <tr><td>HD 110067 b</td><td>May 28, 2027</td><td>Jun 15, 2027</td><td><span class="status-tag status-scheduled">Scheduled</span></td></tr>
+        <tr><td>HD 110067 d</td><td>Jun 18, 2027</td><td>May 8, 2027</td><td><span class="status-tag status-scheduled">Scheduled</span></td></tr>
+        <tr><td>HD 110067 f</td><td>May 4, 2027</td><td>Jun 14, 2027</td><td><span class="status-tag status-scheduled">Scheduled</span></td></tr>
+      </table>
+    </div>
+    <p style="margin-top:1rem"><b>Note:</b> HD 110067's NIRISS/SOSS visits use the new SUB204STRIPE substripe mode,
+      not yet flight-verified.</p>
+  </section>
+
+  <section id="data">
+    <h2>Data Products</h2>
+    <hr class="rule">
+    <p>Following the precedent set by <a href="https://kronos-jwst.github.io" target="_blank" rel="noopener">KRONOS</a>,
+      all intermediate and final data products will be uploaded to Zenodo, and each paper gets its own numbered
+      repository under the <a href="https://github.com/in-at-sync" target="_blank" rel="noopener">in-at-sync</a>
+      GitHub organization. A shared repository enforcing pipeline-output uniformity across independent reductions
+      is planned. Documentation on data formats will be posted here as it's created.</p>
+  </section>
+
+  <section id="conduct">
+    <h2>Code of Conduct</h2>
+    <hr class="rule">
+    <div class="conduct-pending">
+      <b>In progress.</b> IN/AT-SYNC will adopt a formal Code of Conduct given the size and international scope of
+      the collaboration — not yet finalized. This section will be updated once it's in place.
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <hr class="rule">
+    <p>Questions about the program? Get in touch: rluque [at] iaa.es</p>
+  </section>
+
+  <footer>
+    IN/AT-SYNC &middot; JWST GO 10047 &middot; PI Rafael Luque, Instituto de Astrofísica de Andalucía (CSIC)
+  </footer>
+
+</main>
+
+</body>
+</html>
